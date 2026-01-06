@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Brook Engineering and Survey Services</title>
+  <meta name="description" content="Professional engineering and surveying services in Lusaka, Zambia. Construction setting out, topographic, engineering, and cadastral surveys." />
+
+  <style>
+    :root {
+      --primary: #0b5ed7;
+      --secondary: #0fa4a9;
+      --dark: #1f2933;
+      --light: #f8f9fa;
+      --muted: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: var(--dark);
+      background: white;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 1.2rem 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav h1 {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      opacity: 0.9;
+      margin-top: 0.3rem;
+    }
+
+    .hero {
+      padding: 4rem 0;
+      background: #f1f5f9;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin-bottom: 1.5rem;
+      color: var(--muted);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: var(--primary);
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-right: 0.5rem;
+      font-weight: 500;
+    }
+
+    .btn.secondary {
+      background: var(--secondary);
+    }
+
+    section {
+      padding: 3rem 0;
+    }
+
+    section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .service {
+      padding: 1.5rem;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      background: white;
+    }
+
+    .service h4 {
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+
+    .why {
+      background: #f9fafb;
+    }
+
+    ul.features {
+      margin-top: 1.5rem;
+      list-style: disc;
+      padding-left: 1.5rem;
+      color: var(--muted);
+    }
+
+    footer {
+      background: var(--dark);
+      color: white;
+      padding: 2rem 0;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        margin-top: 1rem;
+      }
+
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div>
+          <h1>The Brook Engineering and Survey Services</h1>
+          <div class="tagline">Come to the Brook that never runs dry.</div>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container">
+        <h2>Precision in Measurement. Integrity in Engineering.</h2>
+        <p>
+          We provide reliable engineering and surveying solutions that support infrastructure development, land administration, and construction projects across Lusaka and beyond.
+        </p>
+        <a href="#contact" class="btn">Request a Consultation</a>
+        <a href="#services" class="btn secondary">View Our Services</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h3>Trusted Engineering & Surveying Professionals</h3>
+        <p>
+          The Brook Engineering and Survey Services is a professional geomatics and engineering surveying consultancy based in Lusaka, Zambia. We support individuals, construction firms, institutions, and development organizations with accurate measurements, compliant survey outputs, and practical technical solutions.
+        </p>
+        <p>
+          With seven years of professional experience and registration with recognized professional bodies, we combine technical expertise with a deep understanding of local conditions, regulations, and project requirements.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h3>Our Core Services</h3>
+        <div class="services">
+          <div class="service">
+            <h4>Construction Setting Out</h4>
+            <p>Accurate positioning and alignment of structures to ensure construction works follow approved designs.</p>
+          </div>
+          <div class="service">
+            <h4>Topographic Surveys</h4>
+            <p>Detailed mapping of natural and man-made features to support planning and design.</p>
+          </div>
+          <div class="service">
+            <h4>Engineering Surveys</h4>
+            <p>Specialized surveys for infrastructure projects such as roads, drainage, and structural works.</p>
+          </div>
+          <div class="service">
+            <h4>Cadastral Surveys</h4>
+            <p>Boundary determination and land parcel surveys conducted in accordance with statutory requirements.</p>
+          </div>
+          <div class="service">
+            <h4>Site Plan Designs</h4>
+            <p>Preparation of site plans for development approval, planning, and construction.</p>
+          </div>
+          <div class="service">
+            <h4>Quantity Surveying Support</h4>
+            <p>Measurement and quantification support for construction cost estimation and control.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container">
+        <h3>Why Choose The Brook</h3>
+        <ul class="features">
+          <li>Professionally registered and experienced surveyor</li>
+          <li>Clear, accurate, and dependable survey outputs</li>
+          <li>Strong understanding of engineering and construction workflows</li>
+          <li>Client-focused approach with practical solutions</li>
+          <li>Commitment to professional ethics and quality standards</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h3>Contact Us</h3>
+        <p>If you would like to discuss a project or request professional surveying services, please complete the form below. All inquiries will be directed to our official company email.</p>
+
+        <form action="#" method="post" style="max-width:600px; margin-top:1.5rem;">
+          <label for="name">Full Name</label><br />
+          <input type="text" id="name" name="name" required style="width:100%; padding:0.6rem; margin-bottom:1rem;" />
+
+          <label for="email">Email Address</label><br />
+          <input type="email" id="email" name="email" required style="width:100%; padding:0.6rem; margin-bottom:1rem;" />
+
+          <label for="subject">Subject</label><br />
+          <input type="text" id="subject" name="subject" required style="width:100%; padding:0.6rem; margin-bottom:1rem;" />
+
+          <label for="message">Message</label><br />
+          <textarea id="message" name="message" rows="5" required style="width:100%; padding:0.6rem; margin-bottom:1rem;"></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <p style="margin-top:1.5rem; font-size:0.95rem; color:#6b7280;">
+          Email: <strong>info@thebrookengineering.co.zm</strong><br />
+          Phone: To be added<br />
+          Location: Lusaka, Zambia
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 The Brook Engineering and Survey Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
